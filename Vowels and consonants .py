@@ -1,4 +1,4 @@
-#input a string fron the user
+#input a string fron the user and saves it all as lower case as python is case sensitive
 word=input("word: ").lower()
 
 #create a list of vowels to be matched with
