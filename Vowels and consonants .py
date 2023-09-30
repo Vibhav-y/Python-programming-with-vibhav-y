@@ -1,5 +1,5 @@
 #input a string fron the user
-a=input("word: ").lower()
+word=input("word: ").lower()
 
 #create a list of vowels to be matched with
 list_vowel=['a', 'e', 'i', 'e', 'o', 'u']
@@ -9,7 +9,7 @@ vowel=0
 consonant=0
 
 #in the for loop it checks if a letter in the string is a vovel or not by comparing it with the list
-for letter in a:
+for letter in word:
 
     # If the letter is in the list it counts it as a vowel and adds 1 to the list of vowels
     if letter in list_vowel:
